@@ -1,0 +1,29 @@
+1) ls #Para saber que archivos contiene
+2) ls -a #Sirve para observar todos los archivos que hay dentro de esa ruta (Incluso los ocultos) 
+3) pwd #Para saber la ruta exacta donde se encuentra
+4) cd .. #Para salirme del directorio donde se encuentra (Devuelve una ruta más atrás del original)
+5) mkdir #Para crear carpetas nuevas
+6) code . #Para abrir el editor de texto
+7) git status #Para revisar el movimiento de los archivos y si estan seguimiento por el git
+8) git status -s #Para ver los archivos de forma mas ordenada
+9) git add #Para agregar al seguimiento del registro de datos con git
+10) git add . #Para agregar a todos los archivos que se encuentren en el listado de "Untracked files:"
+11) git rm #Para eliminar el archivo
+12) git restore --staged #Para sacar algun archivo del "git add"
+13) git restore #Para traer de vuelta un archivo eliminado
+14) mv archivos2.txt archivos.txt #Para cambiar el nombre de un archivo en el editor de texto 
+15) git mv archivos2.txt archivos.txt #Para cambiar el nombre de un archivo cuando ya esta commiteado en el git
+16) git diff #Para ver todos los cambios escritos pero no agregados al siguiente proceso
+17) git diff --staged #Para ver todos los cambios que se encuentran en etapa antes de agregar
+18) git log #Para mostrar el historial de los cambio realizados previamente
+19) git log --oneline #Para mostrar el historial de forma mas ordenada
+20) git branch #Para ver en que rama nos encontramos
+21) git checkout -b "nombre de la rama" #Para cambiarnos de rama en especifico
+22) cat "nombre del archivo" # Este servira para ver los archivos internos que contiene
+23) git merge "nombre de la rama a la que queremos combiar (Con la actual)"
+24) $ git remote add origin https://github.com/Ivan-Guerrero-C/Practicas-Git.git   #Indica a donde debe tomar el codigo y donde guardarlo
+25) git push -u origin master #Para subir los cambios en cuanto a la rama que estemos trabajando (A su vez este crea la rama con el - u y con origin en donde la queremos crear y por ultimo el nombre de la rama)
+26) git push -u oigin ramaC #Se usa para crear la rama en el repositorio
+
+
+"Para poder ignorar cualquier archivo no deseado debemos crear un archivo llamado .gitignore y agregar el nombre del archivo o ruta que queremos ignorar"
